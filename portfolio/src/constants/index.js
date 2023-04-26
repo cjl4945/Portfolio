@@ -23,6 +23,22 @@ import {
   jobit,
   tripguide,
   threejs,
+  sri,
+  python,
+  java,
+  constellation,
+  ultra,
+  matlab,
+  vhdl,
+  clang,
+  cpp,
+  assembly,
+  car,
+  mips,
+  baseball,
+  bank,
+  imagine,
+  checkers
 } from "../assets";
 
 export const navLinks = [
@@ -57,32 +73,32 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "C++",
+    icon: cpp,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "C",
+    icon: clang,
+  },
+  {
+    name: "VHDL/Verilog",
+    icon: vhdl,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Java",
+    icon: java,
   },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -93,20 +109,12 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "Matlab",
+    icon: matlab,
   },
 ];
 
@@ -114,134 +122,172 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "SRI International",
-    icon: starbucks,
+    icon: sri,
     iconBg: "#383E56",
     date: "May 2019 - Aug 2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Collaborated with the team lead to change an application’s architecture from 32-bit to 64-bit.",
+      "Worked within Linux and Visual Studio to build and link supporting libraries to existing projects.",
+      "Rehosted existing C/C++ software into latest Windows IDE.",
+      "Participated in code reviews and recieved and provided constructive feedback to/from other developers.",
     ],
+    url: "https://www.sri.com/"
   },
   {
     title: "Robotic Process Automation Intern",
     company_name: "Constellation Brands",
-    icon: tesla,
+    icon: constellation,
     iconBg: "#E6DEDD",
     date: "May 2020 - Dec 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Participated in code reviews and recieved and provided constructive feedback to/from other developers..",
     ],
+    url: "https://www.cbrands.com/"
   },
   {
     title: "Software Engineer Intern",
     company_name: "Ultra Electronics",
-    icon: shopify,
+    icon: ultra,
     iconBg: "#383E56",
     date: "May 2022 - Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a C++ command line user interface application that received a stream of packet data from a socket, parsed it, and extracted desired packets determined from the user arguments.",
+      "Self-led the implementation of a soft-core processor swap in a FPGA.",
+      "The implementation included reconfiguring the constraint file and upgrading the FPGA’s design to properly link the processor with its appropriate peripherals.",
+      "Participated in code reviews and recieved and provided constructive feedback to/from other developers.",
     ],
+    url: "https://www.ultra.group/us/"
   },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Mr. Lewis was eager to take on tasks in areas he was unfamiliar.",
+    name: "Michael Kiernan",
+    designation: "Principal Systems Engineer",
+    company: "SRI International",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Chase is able to quickly pick up and run with an idea once shown the correct path.",
+    name: "Lynn Edmunds",
+    designation: "Software Functional Manager",
+    company: "Ultra Electronics",
+    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Chase does a great job of completing anything that is assigned to him. He also wasn't afraid to ask for work, which was great. He took initiative and wasn't intimidated by new tools or the changing business environment.",
+    name: "Josh Brundage",
+    designation: "Manager Financial Systems (RPA)",
+    company: "Constellation Brands",
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
+  
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Self-Driving Car",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Given a car attached with 2 DC motors, 1 servo motor, a line-scan camera, and a MSP432 microcontroller, various peripherals were used to control the different hardware on the car to drive around a track.",
     tags: [
       {
-        name: "react",
+        name: "C",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "I2C",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "PWM",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: car,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Baseball Swing Analyzer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A system was designed to recognize the beginning of a batter’s loading phase and initialization of their rotational sequence so that it can record the player’s biomechanics throughout their entire swing.",
     tags: [
       {
-        name: "react",
+        name: "C",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Python",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Flask",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: baseball,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Air Purfication System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The Purification Station is  a high-efficiency automated air filtration machine powered on a Bluetooth device. With its powerful fan and hospital-grade air filters, 99.97% of particles from the air.",
     tags: [
       {
-        name: "nextjs",
+        name: "C",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Arduino",
+        color: "green-text-gradient",
+      },
+    ],
+    image: imagine,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Bank Simulation",
+    description:
+      "Simulated a banking environment using FreeRTOS on the Nucleo STM32l476 board. Using tasks and a queue, customers were populated/depopulated in a queue and serviced by bank tellers as tasks/threads",
+    tags: [
+      {
+        name: "C",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "RTOS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: bank,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "WebCheckers",
+    description:
+      "An online Checkers game system built in Java 8 and Spark. The application runs locally and anybody connected locally could play against each other.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spark",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "HTML",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: checkers,
+    source_code_link: "https://github.com/cjl4945/Web-Checkers/tree/master/webcheckers",
   },
 ];
 

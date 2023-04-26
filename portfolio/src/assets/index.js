@@ -20,15 +20,35 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png"
+import java from "./tech/java.png"
+import matlab from "./tech/matlab.png"
+import vhdl from "./tech/vhdl.png"
+import clang from "./tech/c.png"
+import cpp from "./tech/cpp.png"
+import assembly from "./tech/assembly.png"
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sri from './company/sri.png';
+import constellation from "./company/constellation.png"
+import ultra from "./company/ultra.png" 
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import car from "./works/car.png";
+import bank from "./works/bank.png";
+import mips from "./works/MIPS_DP.png";
+import baseball from "./works/baseball.png"
+import imagine from "./works/imagine.png"
+import checkers from "./works/checkers.png"
+
+
 
 export {
   logo,
@@ -59,4 +79,20 @@ export {
   carrent,
   jobit,
   tripguide,
+  java,
+  python,
+  sri,
+  constellation,
+  ultra,
+  matlab,
+  vhdl,
+  clang,
+  cpp,
+  assembly,
+  car,
+  mips,
+  baseball,
+  bank,
+  imagine,
+  checkers,
 };
