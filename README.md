@@ -68,12 +68,6 @@ npm run deploy
 - Adjust **styles** in `src/styles/` to change the UI theme.
 - Update **metadata** in `public/index.html` for SEO improvements.
 
-## Future Enhancements
-🔹 Add a **contact form** with email integration.  
-🔹 Implement a **blog section** for technical writing.  
-🔹 Improve **dark mode support** with a toggle switch.  
-🔹 Integrate **API for real-time project updates**.
-
 ## Contributors
 Developed by **Chase Lewis**.
 
