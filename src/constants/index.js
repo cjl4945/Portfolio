@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   nodejs,
@@ -38,7 +39,10 @@ import {
   baseball,
   bank,
   imagine,
-  checkers
+  checkers,
+  saba,
+  empatheia,
+  greenxt,
 } from "../assets";
 
 export const navLinks = [
@@ -97,12 +101,16 @@ const technologies = [
     icon: java,
   },
   {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Next.js",
+    icon: nextjs,
   },
   {
     name: "MongoDB",
@@ -143,7 +151,6 @@ const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participated in code reviews and recieved and provided constructive feedback to/from other developers..",
     ],
     url: "https://www.cbrands.com/"
   },
@@ -156,10 +163,22 @@ const experiences = [
     points: [
       "Developed a C++ command line user interface application that received a stream of packet data from a socket, parsed it, and extracted desired packets determined from the user arguments.",
       "Self-led the implementation of a soft-core processor swap in a FPGA.",
-      "The implementation included reconfiguring the constraint file and upgrading the FPGA’s design to properly link the processor with its appropriate peripherals.",
-      "Participated in code reviews and recieved and provided constructive feedback to/from other developers.",
+      "The implementation included reconfiguring the constraint file and upgrading the FPGA’s design to properly link the processor with compatible and appropriate peripherals.",
     ],
     url: "https://www.ultra.group/us/"
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Green Expert Technology",
+    icon: greenxt,
+    iconBg: "#E6DEDD",
+    date: "May 2023 - Present",
+    points: [
+      "Successfully coordinated code reviews and audits, leading to the timely release of multiple software updates.",
+      "Collaborated with team leads and developers, resulting in comprehensive audits that improved code quality and compliance.",
+      "Implemented hash comparison techniques to ensure software integrity and security, reducing vulnerabilities and discrepancies by 90%.",
+    ],
+    url: "https://greenxt.com"
   },
 ];
 
@@ -211,7 +230,7 @@ const projects = [
       },
     ],
     image: car,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cjl4945/Autonomous-Car",
   },
   {
     name: "Baseball Swing Analyzer",
@@ -232,7 +251,7 @@ const projects = [
       },
     ],
     image: baseball,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cjl4945/Baseball-Swing-Analyzer",
   },
   {
     name: "Air Purfication System",
@@ -249,7 +268,7 @@ const projects = [
       },
     ],
     image: imagine,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cjl4945/Air-Purification-System",
   },
   {
     name: "Bank Simulation",
@@ -266,7 +285,7 @@ const projects = [
       },
     ],
     image: bank,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/cjl4945/Bank-Simulation",
   },
   {
     name: "WebCheckers",
@@ -289,6 +308,45 @@ const projects = [
     image: checkers,
     source_code_link: "https://github.com/cjl4945/Web-Checkers/tree/master/webcheckers",
   },
+  {
+    name: "E-commerce Web Application",
+    description:
+      "Developed a dynamic and responsive eCommerce platform using Next.js. Implemented a backend with MongoDB for efficient data management and scalability, handling product inventories, and order processing. Utilized AWS services for secure and scalable deployment, including AWS S3 for image storage, as well as domain creation and management",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+    ],
+    image: saba,
+    source_code_link: "https://github.com/cjl4945/E-commerce-Web-Application--Saba",
+  },
+  {
+    name: "Full-Stack Blog",
+    description:
+      "I am currently developing a full-stack blog using Next.js, designed to foster empathy and celebrate cultural diversity. This platform aims to provide a space where diverse voices can share their stories and perspectives, leveraging the latest in web technologies to create an inclusive and engaging user experience.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: empatheia,
+    source_code_link: "https://github.com/cjl4945/E-commerce-Web-Application--Saba",
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

@@ -18,10 +18,9 @@ const Hero = () => {
          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm 
          <span className='text-[#915eff]'> Chase</span> </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I'm a recent Computer Engineer grauduate from  
+          I'm a Computer Engineer graduate from  
             <span className='text-[#F87000]'> Rochester Institute of Technology</span> 
-            &nbsp; with a diverse skillset.<br className="block"/> I created this website to grasp concepts in deploying a website using <a className=' underline' href='https://aws.amazon.com/'>AWS</a>
-            &nbsp;S3. I wanted this web page to, not exclusively, show my projects and work experience. Hope you enjoy 😁<br/>
+            &nbsp; with a diverse skillset. I'm currently a software engineer at Green Expert Technology with a secret-tiered security clearance.<br className="block"/><br className="block"/> Welcome to My World of Software Engineering: A Journey of Learning and Expertise. Hope you enjoy 😁<br/>
             
           </p>
         </div>

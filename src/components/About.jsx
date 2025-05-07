@@ -49,8 +49,8 @@ const About = () => {
       >
         I'm a skilled Software Engineer with expertise in embedded systems, backend and frontend development. 
           My progamming languages consist of <span className='font-extrabold text-[#B100A6]'>C/C++, VHDL/Verilog, Python
-          , Java, HTML5, CSS3, Javascript &#40;frameworks: React, Node.js, and Three.js&#41;  
-          , Assembly, and MatLab. </span> I'm a quick learner as I began developing websites for clients in early 2023. My drive runs on providing 
+          , Java, HTML5, CSS3, Javascript &#40;frameworks: React, Node.js, Next.js, and Three.js&#41;  
+          , Assembly, and MatLab. </span> I'm a quick learner as I began developing websites in early 2023. My drive runs on providing 
           solutions to real-world, computationally challenging problems.
       </motion.p>
 

@@ -27,6 +27,7 @@ import vhdl from "./tech/vhdl.png"
 import clang from "./tech/c.png"
 import cpp from "./tech/cpp.png"
 import assembly from "./tech/assembly.png"
+import nextjs from "./tech/nextjs.png"
 
 
 import meta from "./company/meta.png";
@@ -36,6 +37,7 @@ import tesla from "./company/tesla.png";
 import sri from './company/sri.png';
 import constellation from "./company/constellation.png"
 import ultra from "./company/ultra.png" 
+import greenxt from "./company/greenxt.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -47,6 +49,8 @@ import mips from "./works/MIPS_DP.png";
 import baseball from "./works/baseball.png"
 import imagine from "./works/imagine.png"
 import checkers from "./works/checkers.png"
+import saba from "./works/Saba.png"
+import empatheia from "./works/empatheia.png"
 
 
 
@@ -68,6 +72,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextjs,
   redux,
   tailwind,
   typescript,
@@ -84,6 +89,7 @@ export {
   sri,
   constellation,
   ultra,
+  greenxt,
   matlab,
   vhdl,
   clang,
@@ -95,4 +101,6 @@ export {
   bank,
   imagine,
   checkers,
+  saba,
+  empatheia,
 };
