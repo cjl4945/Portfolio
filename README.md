@@ -1,79 +1,75 @@
-# Porfolio
-This is a React JS porfolio for myself to learn react and have an aesthetic visual of my project in my career thus far.
+# Portfolio
 
+## Overview
+This is a **React.js portfolio** designed to showcase my projects, skills, and career progress while also serving as a learning experience for mastering **React.js**.
 
-![My Image](portfolio/src/assets/1e549367009301.5ed61224411c3.jpg)
+🌐 **Live Website:** [codewithchase.com](https://codewithchase.com)
 
-## Follow my favorite artist [Mcflyy](https://mcflyy.com/).
+## Features
+✅ **Dynamic UI** – Built using React components for an interactive and smooth user experience.  
+✅ **Project Showcase** – Displays my past and current projects with descriptions and links.  
+✅ **Responsive Design** – Optimized for various screen sizes and devices.  
+✅ **Theming Support** – Customizable styling for a personalized aesthetic.  
+✅ **Easy Deployment** – Can be deployed on GitHub Pages, Vercel, or Netlify.
 
+## Technologies Used
+- **React.js** – Front-end framework for building interactive UIs.
+- **JavaScript (ES6+)** – Core language for development.
+- **HTML & CSS** – For structuring and styling components.
+- **React Router** – Enables navigation between portfolio sections.
+- **Styled Components / Tailwind CSS** – Manages consistent and scalable styling.
+- **Framer Motion** – Adds smooth animations and transitions.
+- **Node.js & npm** – Dependency and package management.
 
-# Getting Started with Create React App
+## Getting Started
+### Prerequisites
+Ensure you have **Node.js** and **npm** installed on your system. You can check this by running:
+```bash
+node -v
+npm -v
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cjl4945/Portfolio.git
+   ```
+2. Navigate into the project directory:
+   ```bash
+   cd Portfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Available Scripts
+### Running the Development Server
+To start the portfolio in **development mode**, run:
+```bash
+npm start
+```
+This will launch the app at [http://localhost:3000](http://localhost:3000).
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Building for Production
+To build the optimized production version:
+```bash
+npm run build
+```
+This creates a `build/` folder with minified assets ready for deployment.
 
 ### Deployment
+You can deploy the portfolio using **GitHub Pages, Vercel, Netlify, or Firebase**. For example, to deploy on GitHub Pages:
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Customization
+- Modify the **components** in `src/` to add or update projects.
+- Adjust **styles** in `src/styles/` to change the UI theme.
+- Update **metadata** in `public/index.html` for SEO improvements.
 
-### `npm run build` fails to minify
+## Contributors
+Developed by **Chase Lewis**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
